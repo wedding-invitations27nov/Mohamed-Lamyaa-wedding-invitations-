@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad & Lamyaa — Wedding Invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f6f5ea;
+            --ink: #454620;
+            --gold: #b39b6e;
+            --soft: #e8e6d5;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--ink);
+            font-family: 'Jost', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .invitation-card {
+            background: #ffffff;
+            width: 90%;
+            max-width: 600px;
+            padding: 40px 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border: 1px solid var(--soft);
+            border-radius: 8px;
+            margin: 20px;
+        }
+        .subtitle {
+            font-size: 12px;
+            letter-spacing: 3px;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 40px;
+            font-weight: 400;
+            margin: 10px 0;
+            color: var(--ink);
+        }
+        .families {
+            font-size: 11px;
+            letter-spacing: 2px;
+            color: #777;
+            margin: 25px 0 15px 0;
+        }
+        .event-details {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .date-box {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 6px;
+            margin: 25px 0;
+            border: 1px solid var(--soft);
+        }
+        .date-box h3 {
+            margin: 0 0 10px 0;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--ink);
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 12px;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: var(--gold);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <div class="subtitle">THE INVITATION</div>
+        <h1>MUHAMMAD & LAMYAA</h1>
+        
+        <div class="families">TOGETHER WITH THEIR FAMILIES</div>
+        <div class="event-details">
+            Request the pleasure of your company<br>
+            ON THE OCCASION OF THEIR MARRIAGE
+        </div>
+
+        <div class="date-box">
+            <h3>Friday · 27 November 2026</h3>
+            <p><strong>VENUE:</strong> VIP Hall</p>
+            <p><strong>LOCATION:</strong> Rehanna Plaza Hotel - Nasr City</p>
+        </div>
+
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Muhammad%20%26%20Lamyaa%20%E2%80%94%20Wedding&dates=20261127T180000/20261127T220000&ctz=Africa/Cairo&details=Wedding%20Celebration&location=VIP%20Hall%2C%20Rehanna%20Plaza%20Hotel%2C%20Nasr%20City%2C%20Cairo%2C%20Egypt" class="btn" target="_blank">ADD TO GOOGLE CALENDAR</a>
+    </div>
+
+</body>
+</html>
